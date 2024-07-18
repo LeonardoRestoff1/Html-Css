@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url();
+body{
+    font-family: 'work Sans', Arial, Helvetica, sans-serif;
+    /* 
+      Medidas Absolutas
+      cm, mm, in, px, pt, pc ( Para fontes é recomendado o px). 
+      
+      16px geralmente é o tamanho normal da fonte
+     
+      Medida Relativas
+      em, ex, rem, vw, vh, % (para fontes é recomendado o EM)
+
+      16px = 1em
+
+    */
+    font-size: 18px;
+    font-weight: bolder;
+    /* ligther normal bold bolder(tipos de peso da fonte) */
+    font-style: italic;
+    text-decoration: underline;
+    /* weight, width, height(Nao confundir essas palavras: peso, largura, altura) */
+
+}
+h1{
+    /* shorthand font
+    font-family: 'worki Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    font-style: italic;
+
+     - font-style -> font-weight -> font-size -> fonte-family
+    */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
+h2{
+    font: bold 2em 'work sans';
+}
+
